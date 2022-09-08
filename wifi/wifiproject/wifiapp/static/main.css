@@ -1,0 +1,78 @@
+body{
+    background-image: url('mainbackground.png');
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    float: right;
+    position: absolute;
+    top: 46px;
+    right: 145px;
+    font-family: 'GmarketSansMedium';
+}
+
+ul li{
+    display: inline;
+    padding: 0px 50px 0px 50px;
+    margin: 10px 0px 10px 0px;
+    font-size: 25px;
+}
+
+ul li:first-child{
+    border-left: none;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    height: 80px;
+    width: 330px;
+    font-size: 22px;
+    position: absolute;
+    left: 280px;
+    bottom: 275px;
+    font-family: 'yg-jalnan';
+}
+
+.content{
+    background-color: white;
+    position: absolute;
+    left: 260px;
+    bottom: 395px;
+    font-family: 'GmarketSansMedium';
+    font-size: large;
+}
+
+/*h1{*/
+/*    font-size: xx-large;*/
+/*    position: absolute;*/
+/*    left: 290px;*/
+/*    bottom: 600px;*/
+/*}*/
+
+#title{
+    font-size: 3rem;
+    font-family: 'yg-jalnan';
+    /*position: absolute;*/
+    /*left: 285px;*/
+    /*bottom: 600px;*/
+
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

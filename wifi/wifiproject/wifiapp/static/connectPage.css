@@ -1,0 +1,56 @@
+body{
+    background-image: url('connectbackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    float: right;
+    position: absolute;
+    top: 46px;
+    right: 145px;
+    font-family: 'GmarketSansMedium';
+}
+
+ul li{
+    display: inline;
+    padding: 0px 50px 0px 50px;
+    margin: 10px 0px 10px 0px;
+    font-size: 25px;
+}
+
+ul li:first-child{
+    border-left: none;
+}
+
+p{
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: 370px;
+    left: 595px;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: 'yg-jalnan';
+    position: absolute;
+    top: 200px;
+    left: 715px;
+    font-size: 4rem;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
